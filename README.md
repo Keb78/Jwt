@@ -12,18 +12,18 @@ visa saldo. När man tycker på knappen ska man se saldot på samma sida.
 När man skapar en användare anger man användarnamn, lösenord och saldo. I backend skapas
 då en användare som läggs till i `users` och ett bankkonto med det angivana salodot som läggs till i `accounts`.
 
-### Sätt upp projektet
+## Sätt upp projektet
 
 1. Öppna en terminal och gå med `cd` där du vill skapa projektet.
 2. Skapa där en folder: bankjwt och gå med `cd` in i foldern.
 
-# Skapa frontend
+### Skapa frontend
 
 1. Skriv `npm create vite@latest frontend -- --template react`.
 2. Gå in i projektet: `cd frontend`.
 3. Installera dependencies: `npm install`.
 
-# Skapa backend
+### Skapa backend
 
 1. Skapa en folder: backend och gå med `cd` in i foldern.
 2. Skriv `npm init` och tryck Enter på alla frågor.
