@@ -3,7 +3,7 @@
 I dagens uppgift ska vi öva på inloggning med jwt - Json Web Token genom att
 skapa en banksajt. I bankens backend finns två arrayer: En array `users` för användare
 och en array `accounts` för bankkonton. Varje användare har ett id, ett användarnamn och ett
-lösenord. Varje bankkonto har ett id, ett användarid och ett lösenord.
+lösenord. Varje bankkonto har ett id, ett användarid och ett saldo.
 
 Banken har endast en sida på sin sajt. Där kan man skapa nya användare och logga in
 för att se sitt saldo på kontot. När man loggar in ska man se en knapp där det står
