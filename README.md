@@ -25,6 +25,7 @@ då en användare som läggs till i `users` och ett bankkonto med det angivana s
 
 ### Skapa backend
 
+1. Backa en nivå med `cd ..`.
 1. Skapa en folder: backend och gå med `cd` in i foldern.
 2. Skriv `npm init` och tryck Enter på alla frågor.
 3. Lägg till `"type": "module"`i package.json
