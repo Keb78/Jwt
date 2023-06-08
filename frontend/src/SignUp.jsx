@@ -2,7 +2,7 @@
 export default function SignUp({username,setUsername,password,setPassword,submit,setSubmit}){
  
 
- const handleSubmit = () =>{
+ const handleLogin = () =>{
      
     const user = {
       "username":username,
@@ -43,7 +43,7 @@ value={username} type="username" />
 console.log(password)}} className="input"
 value={password} type="password" />
 
-<button onClick={handleSubmit} className="btn">
+<button onClick={handleLogin} className="btn">
 Submit
 </button>
 
